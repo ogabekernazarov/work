@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Victus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-26 09:38:43 PM"/>
+        <attribute name="created" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI2OzA5OjIyOjQwIFBNOzI5NjQ="/>
+        <attribute name="edited" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI2OzA5OjM4OjQzIFBNOzE7MzA4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;svetafor qaysi rangda ekanligini anidlovchi programa tuzing &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;qizil &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot; sariq &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;yashil &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

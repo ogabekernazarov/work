@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Victus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-28 06:28:15 PM"/>
+        <attribute name="created" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI2OzA3OjE3OjI5IFBNOzI5NzM="/>
+        <attribute name="edited" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI4OzA2OjI4OjE1IFBNOzI7MzA4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, m" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <output expression="&quot;a sondan b songacha juft sonlar yig'indisi &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="m" expression="0"/>
+            <for variable="n" start="a" end="b" direction="inc" step="1">
+                <if expression="a%2==0">
+                    <then>
+                        <assign variable="m" expression="m+n"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
